@@ -4,150 +4,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Travel, photography, and moments from my learning journey at i.c.stars.">
-    <title>Media | Aspiring IT Professional</title>
+    <meta name="description" content="Completed projects, business experience, and technology learning by Faiza Razzaq Baloch.">
+    <title>Projects | Aspiring IT Professional</title>
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 
     <style>
-        .c60-media-section {
-            margin: 70px 0 80px;
-            padding: 45px 0;
-            border-top: 1px solid rgba(255,255,255,.25);
-            border-bottom: 1px solid rgba(255,255,255,.25);
+        .c60-project-section {
+            margin: 72px 0 82px;
+            padding-top: 38px;
+            border-top: 1px solid rgba(255,255,255,.27);
+            scroll-margin-top: 110px;
         }
 
-        .c60-media-heading {
-            max-width: 760px;
-            margin-bottom: 32px;
+        .c60-project-heading {
+            margin-bottom: 28px;
         }
 
-        .c60-media-heading h2 {
-            font-size: clamp(32px, 4vw, 50px);
-            line-height: 1.14;
+        .c60-project-heading h2 {
+            font-size: clamp(30px, 4vw, 48px);
+            line-height: 1.12;
             letter-spacing: -.035em;
-            margin: 12px 0 18px;
+            margin: 8px 0 16px;
         }
 
-        .c60-media-heading p:last-child {
-            font-size: 16px;
-            line-height: 1.8;
-            opacity: .9;
-        }
-
-        .c60-media-grid {
-            display: grid;
-            grid-template-columns: repeat(2, minmax(0, 1fr));
-            gap: 22px;
-        }
-
-        .c60-media-card {
-            background: #125387;
-            color: #fff;
-            border: 1px solid rgba(255,255,255,.18);
-            border-radius: 16px;
-            overflow: hidden;
-            min-width: 0;
-        }
-
-        .c60-media-image {
-            display: block;
-            width: 100%;
-            height: 270px;
-            object-fit: cover;
-        }
-
-        .c60-media-image-badge {
-            object-fit: contain;
-            background: #edf5fb;
-            padding: 20px;
-            box-sizing: border-box;
-        }
-
-        .c60-media-content {
-            padding: 25px;
-        }
-
-        .c60-media-label {
-            display: block;
-            font-size: 11px;
-            font-weight: 800;
-            letter-spacing: .12em;
-            color: #c9e7ff;
-            margin-bottom: 13px;
-        }
-
-        .c60-media-content h3 {
-            font-size: 23px;
-            line-height: 1.3;
-            margin: 0 0 13px;
-            color: #fff;
-        }
-
-        .c60-media-content p {
-            font-size: 15px;
-            line-height: 1.8;
-            color: #edf6ff;
-            margin: 0 0 17px;
-        }
-
-        .c60-media-link {
-            display: inline-block;
-            color: #fff;
-            font-size: 14px;
-            font-weight: 700;
-            text-decoration: underline;
-            text-underline-offset: 5px;
-            margin-top: 4px;
-        }
-
-        .c60-media-reflection {
-            background: #125387;
-            color: #fff;
-            border: 1px solid rgba(255,255,255,.18);
-            border-radius: 16px;
-            padding: 28px;
-            margin-top: 22px;
-        }
-
-        .c60-media-reflection h3 {
-            font-size: 25px;
-            margin: 0 0 14px;
-            color: #fff;
-        }
-
-        .c60-media-reflection p {
-            color: #edf6ff;
-            font-size: 15px;
-            line-height: 1.85;
+        .c60-project-heading p:last-child {
+            color: #e4f1fc;
+            font-size: 17px;
+            line-height: 1.7;
             max-width: 780px;
         }
 
-        .c60-media-links {
+        .c60-project-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 18px;
+        }
+
+        .c60-project-card {
+            background: rgba(18,83,135,.60);
+            border: 1px solid rgba(255,255,255,.15);
+            border-radius: 16px;
+            padding: 28px;
+            min-width: 0;
+        }
+
+        .c60-project-label {
+            display: block;
+            font-size: 12px;
+            font-weight: 800;
+            color: #d3eaff;
+            letter-spacing: .12em;
+            margin-bottom: 17px;
+        }
+
+        .c60-project-card h3 {
+            font-size: 22px;
+            line-height: 1.3;
+            margin-bottom: 16px;
+            letter-spacing: -.02em;
+        }
+
+        .c60-project-card p {
+            color: #f0f7ff;
+            font-size: 15px;
+            line-height: 1.85;
+            margin-bottom: 16px;
+        }
+
+        .c60-project-card p:last-child {
+            margin-bottom: 0;
+        }
+
+        .c60-project-card img {
+            display: block;
+            width: 100%;
+            max-width: 360px;
+            height: auto;
+            max-height: 390px;
+            object-fit: contain;
+            border-radius: 12px;
+            margin: 18px 0 10px;
+        }
+
+        .c60-image-note {
+            display: block;
+            font-size: 12px;
+            color: #d7eaff;
+            margin-bottom: 18px;
+        }
+
+        .c60-project-link {
+            display: inline-block;
+            margin-top: 8px;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 700;
+            text-underline-offset: 5px;
+        }
+
+        .c60-project-card-wide {
+            grid-column: 1 / -1;
+        }
+
+        .c60-project-tags {
             display: flex;
             flex-wrap: wrap;
-            gap: 14px 24px;
-            margin-top: 22px;
+            gap: 9px;
+            margin-top: 20px;
+        }
+
+        .c60-project-tags span {
+            padding: 6px 12px;
+            border: 1px solid rgba(255,255,255,.35);
+            border-radius: 30px;
+            font-size: 12px;
+            font-weight: 700;
         }
 
         @media (max-width: 760px) {
-            .c60-media-grid {
+            .c60-project-grid {
                 grid-template-columns: 1fr;
             }
 
-            .c60-media-section {
-                margin: 50px 0 60px;
-                padding: 30px 0;
-            }
-
-            .c60-media-image {
-                height: 230px;
-            }
-
-            .c60-media-content,
-            .c60-media-reflection {
+            .c60-project-card {
                 padding: 22px;
+            }
+
+            .c60-project-section {
+                margin: 50px 0 65px;
             }
         }
     </style>
@@ -172,8 +158,8 @@
             <div id="nav-content" class="nav-content">
                 <a class="nav-link" href="index.html">Home</a>
                 <a class="nav-link" href="about.html">About</a>
-                <a class="nav-link" href="media.html" aria-current="page">Media</a>
-                <a class="nav-link" href="projects.html">Projects</a>
+                <a class="nav-link" href="media.html">Media</a>
+                <a class="nav-link" href="projects.html" aria-current="page">Projects</a>
                 <a class="nav-link" href="resume.html">Resume</a>
                 <a class="nav-link" href="contact.html">Contact</a>
 
@@ -192,7 +178,7 @@
 
                     <a href="https://github.com/fbaloch1" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
                         <svg aria-hidden="true" focusable="false" class="social-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+                            <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
                         </svg>
                     </a>
                 </div>
@@ -202,226 +188,233 @@
 
     <main id="main" class="container" tabindex="-1">
 
-        <section class="travel-hero">
-            <div>
-                <p class="travel-kicker">BEYOND THE SCREEN / TRAVEL &amp; PHOTOGRAPHY</p>
-                <h1>A world to explore.<br><em>A moment to keep.</em></h1>
+        <section class="projects-intro">
+            <p class="eyebrow">PROJECTS / LEARNING THROUGH BUILDING</p>
+            <h1>Ideas into practice.<br><em>One project at a time.</em></h1>
+            <p class="lead">A collection of projects I’ve completed while developing my technical, business, and leadership skills.</p>
+        </section>
+
+        <div class="project-pair">
+
+            <article class="project-entry">
+                <div class="project-entry-top">
+                    <span>01 / ARTIFICIAL INTELLIGENCE</span>
+                    <span class="project-status">Completed</span>
+                </div>
+
+                <h2>Medline Project</h2>
+
+                <p class="project-description">I worked with my team at i.c.stars to develop an AI-supported solution that helps identify recurring operational incidents, recognize patterns, and organize information for follow-up.</p>
+
+                <div class="project-detail">
+                    <h3>The goal</h3>
+                    <p>The goal was to help teams identify repeated incidents, group related issues, and support the creation and routing of problem records to improve problem management.</p>
+                </div>
+
+                <div class="project-detail">
+                    <h3>What I learned</h3>
+                    <p>Through this project, I strengthened my understanding of AI, data analysis, project management, and teamwork. I learned how to translate business requirements into technical solutions, coordinate responsibilities, and communicate results clearly.</p>
+                </div>
+
+                <div class="project-keywords">
+                    <span>AI modeling</span>
+                    <span>Problem-solving</span>
+                    <span>Data analysis</span>
+                    <span>Team collaboration</span>
+                </div>
+
+                <p class="project-progress-note">Project completed at i.c.stars.</p>
+            </article>
+
+            <article class="project-entry project-entry-next">
+                <div class="project-entry-top">
+                    <span>02 / STUDENT SUPPORT &amp; ACCESSIBILITY</span>
+                    <span class="project-status">Completed</span>
+                </div>
+
+                <h2>AccessAble</h2>
+
+                <p class="project-description"><strong>Online IT Student Support Platform</strong></p>
+
+                <p class="project-description">I developed AccessAble, an online student support website designed to help students access IT assistance, academic guidance, and other support services in one place.</p>
+
+                <div class="project-detail">
+                    <h3>Key features</h3>
+                    <p>The completed website includes a Smart Support Navigator, support request and appointment forms, learning resources, and accessible navigation designed to make student support easier to find and use.</p>
+                </div>
+
+                <div class="project-detail">
+                    <h3>What I learned</h3>
+                    <p>Building AccessAble helped me improve my HTML, CSS, JavaScript, website design, troubleshooting, and GitHub skills. I learned how to organize information, create interactive features, and build a website focused on the needs of its users.</p>
+                </div>
+
+                <div class="project-keywords">
+                    <span>Web development</span>
+                    <span>Accessibility</span>
+                    <span>Student support</span>
+                    <span>Problem-solving</span>
+                </div>
+
+                <p class="project-progress-note">Project completed · Live website available.</p>
+
+                <a
+                    class="button"
+                    href="https://fbaloch1.github.io/accessable/#home"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style="margin-top: 20px; align-self: flex-start;"
+                >Explore AccessAble Website ↗</a>
+            </article>
+
+        </div>
+
+        <section class="c60-project-section" id="c60-business">
+            <div class="c60-project-heading">
+                <p class="eyebrow">BUSINESS / CLIENT PROJECT &amp; PROFESSIONAL GROWTH</p>
+                <h2>Learning business through people, projects, and conversations.</h2>
+                <p>My business experiences at i.c.stars have helped me understand how professionals solve problems, communicate expectations, build relationships, and work together to reach a goal.</p>
             </div>
 
-            <div class="travel-intro">
-                <span class="travel-small-rule"></span>
-                <p>I love experiencing new places, learning about different cultures, and trying local food. Whether I’m behind the camera or part of the picture, photography helps me remember the people, places, and moments that make each trip special.</p>
-                <a href="#travel-gallery" class="travel-jump">
-                    Explore the collection <span aria-hidden="true">↘</span>
-                </a>
+            <div class="c60-project-grid">
+
+                <article class="c60-project-card">
+                    <span class="c60-project-label">01 / CLIENT PROJECT</span>
+                    <h3>Medline — understanding a real business problem</h3>
+
+                    <p>Our Medline project focused on recurring operational incidents and how technology could make them easier to identify and manage. We worked on an AI-supported solution intended to find patterns, group related incidents, and help organize information for problem management.</p>
+
+                    <p>The experience showed me how important it is to understand a business problem before building a solution. I learned to think about the needs of the client, the people who would use the system, and how the technology could make their work more effective.</p>
+                </article>
+
+                <article class="c60-project-card">
+                    <span class="c60-project-label">02 / TEAMWORK &amp; PROJECT MANAGEMENT</span>
+                    <h3>Managing responsibilities and working as a team</h3>
+
+                    <p>As a Project Manager during my i.c.stars internship, I helped coordinate responsibilities, track deadlines, organize tasks, and communicate with teammates. I learned that a successful project depends on everyone understanding what needs to be done and how their work contributes to the larger goal.</p>
+
+                    <p>This experience helped me strengthen my organization, communication, and leadership skills. It also taught me that being a Project Manager means supporting your team, listening to different ideas, and following through on responsibilities.</p>
+                </article>
+
+                <article class="c60-project-card">
+                    <span class="c60-project-label">03 / MENTOR MEETINGS</span>
+                    <h3>Learning from experienced professionals</h3>
+
+                    <p>Mentor meetings have been a valuable part of my experience at i.c.stars. Having conversations with experienced professionals has helped me better understand workplace expectations, professional development, and how people approach challenges in their careers.</p>
+
+                    <p>These meetings have encouraged me to ask questions, listen to different perspectives, and think about how I can apply professional advice to my own growth. I learned that mentorship is not only about receiving guidance, but also about being open to feedback and taking responsibility for improving.</p>
+                </article>
+
+                <article class="c60-project-card">
+                    <span class="c60-project-label">04 / TEA CONVERSATIONS</span>
+                    <h3>Building connections through meaningful conversations</h3>
+
+                    <p>Tea Conversations gave me the opportunity to connect with professionals, listen to their experiences, and learn about different career journeys. Hearing how others approached challenges, made decisions, and developed their careers helped me understand that there is more than one path to professional success.</p>
+
+                    <p>These conversations also helped me practice introducing myself, asking thoughtful questions, and communicating with confidence. One of my biggest takeaways was the importance of building genuine professional relationships and continuing to learn from the people around me.</p>
+                </article>
+
             </div>
         </section>
 
-        <section
-            class="travel-gallery travel-gallery-personal"
-            id="travel-gallery"
-            aria-label="Travel photography collection"
-        >
-
-            <figure class="travel-photo travel-photo-01">
-                <div class="travel-image-wrap">
-                    <img
-                        src="assets/Cyprus_Sea_View.jpg"
-                        alt="Faiza standing on a beach beside the sea in Cyprus"
-                        width="1200"
-                        height="1600"
-                        loading="lazy"
-                    >
-                    <span class="travel-photo-index">FRAME / 01</span>
-                </div>
-
-                <figcaption>
-                    <div>
-                        <span class="travel-category">SEA AIR / SLOW MOMENTS</span>
-                        <h2>By the Mediterranean</h2>
-                    </div>
-                    <span class="travel-location">Cyprus</span>
-                </figcaption>
-            </figure>
-
-            <figure class="travel-photo travel-photo-02">
-                <div class="travel-image-wrap">
-                    <img
-                        src="assets/London.jpg"
-                        alt="An illuminated clock tower and passing traffic in London at night"
-                        width="1200"
-                        height="1600"
-                        loading="lazy"
-                    >
-                    <span class="travel-photo-index">FRAME / 02</span>
-                </div>
-
-                <figcaption>
-                    <div>
-                        <span class="travel-category">CITY LIGHTS / ARCHITECTURE</span>
-                        <h2>London after dark</h2>
-                    </div>
-                    <span class="travel-location">London, United Kingdom</span>
-                </figcaption>
-            </figure>
-
-            <figure class="travel-photo travel-photo-03">
-                <div class="travel-image-wrap">
-                    <img
-                        src="assets/Istanbul.jpg"
-                        alt="An evening street scene beneath an illuminated tower in Istanbul"
-                        width="1200"
-                        height="1600"
-                        loading="lazy"
-                    >
-                    <span class="travel-photo-index">FRAME / 03</span>
-                </div>
-
-                <figcaption>
-                    <div>
-                        <span class="travel-category">CULTURE / CITY STREETS</span>
-                        <h2>An evening in Istanbul</h2>
-                    </div>
-                    <span class="travel-location">Istanbul, Türkiye</span>
-                </figcaption>
-            </figure>
-
-            <figure class="travel-photo travel-photo-04">
-                <div class="travel-image-wrap">
-                    <img
-                        src="assets/Dubai.jpg"
-                        alt="Coffee and dessert on an outdoor table with Dubai towers behind"
-                        width="1200"
-                        height="1600"
-                        loading="lazy"
-                    >
-                    <span class="travel-photo-index">FRAME / 04</span>
-                </div>
-
-                <figcaption>
-                    <div>
-                        <span class="travel-category">FOOD / EVERYDAY DISCOVERIES</span>
-                        <h2>Coffee with a city view</h2>
-                    </div>
-                    <span class="travel-location">Dubai, United Arab Emirates</span>
-                </figcaption>
-            </figure>
-
-            <figure class="travel-photo travel-photo-05">
-                <div class="travel-image-wrap">
-                    <img
-                        src="assets/Food.jpg"
-                        alt="A plate of fish, rice, vegetables and lemon"
-                        width="1200"
-                        height="1600"
-                        loading="lazy"
-                    >
-                    <span class="travel-photo-index">FRAME / 05</span>
-                </div>
-
-                <figcaption>
-                    <div>
-                        <span class="travel-category">FLAVORS / SMALL PLEASURES</span>
-                        <h2>A taste of the journey</h2>
-                    </div>
-                    <span class="travel-location">Food &amp; travel</span>
-                </figcaption>
-            </figure>
-
-        </section>
-
-        <section class="travel-note">
-            <p class="travel-kicker">WHY I KEEP EXPLORING</p>
-            <h2>Noticing more.<br><em>Remembering differently.</em></h2>
-
-            <div>
-                <p>Travel gives me a chance to learn beyond my own routine: how people live, what they eat, and how their surroundings shape everyday life. I enjoy trying local dishes, exploring unfamiliar streets, and spending time in different natural environments.</p>
-
-                <p>My photos are part travel journal, part personal memory. Some show the view through my eyes; others include me in the moment. Together, they tell the story of what I experienced, what I learned, and the places I hope to keep discovering.</p>
-            </div>
-        </section>
-
-        <section class="c60-media-section" id="icstars-journey">
-            <div class="c60-media-heading">
-                <p class="travel-kicker">BEYOND THE CLASSROOM / i.c.stars</p>
-                <h2>Learning together.<br><em>Growing through experience.</em></h2>
-                <p>My journey at i.c.stars has been about much more than learning new technology. It has also been about working with others, developing confidence, challenging myself, and discovering new strengths.</p>
+        <section class="c60-project-section" id="c60-technology">
+            <div class="c60-project-heading">
+                <p class="eyebrow">TECHNOLOGY / HANDS-ON LEARNING</p>
+                <h2>Growing through practice, testing, and problem-solving.</h2>
+                <p>Technology has challenged me to learn unfamiliar concepts, work through mistakes, and become more confident using technical tools.</p>
             </div>
 
-            <div class="c60-media-grid">
+            <div class="c60-project-grid">
 
-                <article class="c60-media-card">
-                    <img
-                        class="c60-media-image"
-                        src="assets/cohort-group-photo.jpg"
-                        alt="Group photo of Faiza's i.c.stars cohort"
-                        loading="lazy"
-                    >
+                <article class="c60-project-card">
+                    <span class="c60-project-label">01 / AI DEVELOPMENT</span>
+                    <h3>Building and understanding an AI model</h3>
 
-                    <div class="c60-media-content">
-                        <span class="c60-media-label">01 / TEAMWORK &amp; COMMUNITY</span>
-                        <h3>My i.c.stars cohort</h3>
+                    <p>During my i.c.stars training, I gained experience working with an AI model and learning how data can support a practical solution. This was an important step for me because I was moving from a healthcare background into technology.</p>
 
-                        <p>Being part of the i.c.stars cohort has given me the opportunity to learn alongside people with different experiences and perspectives. Through team projects and daily collaboration, I have been developing my communication, leadership, and problem-solving skills.</p>
+                    <p>I developed experience with Python, SQL, Power BI, and Microsoft Fabric. I learned how important it is to understand the information behind a model, work carefully with data, and explain the results in a way that other people can understand.</p>
 
-                        <p>One of my biggest lessons has been that teamwork is not only about sharing tasks. It is also about listening, supporting others, and taking responsibility for the work we do together.</p>
-
-                        <a class="c60-media-link" href="about.html#c60-leadership">
-                            Explore my leadership journey ↗
-                        </a>
+                    <div class="c60-project-tags">
+                        <span>Python</span>
+                        <span>SQL</span>
+                        <span>Power BI</span>
+                        <span>Microsoft Fabric</span>
                     </div>
                 </article>
 
-                <article class="c60-media-card">
+                <article class="c60-project-card">
+                    <span class="c60-project-label">02 / GEEK WEEK</span>
+                    <h3>Geek Week — putting my skills to the test</h3>
+
+                    <p>Geek Week was an opportunity to practice technical skills and learn how I respond to challenges under time pressure. The activities involved SQL, Excel, keyboard shortcuts, and timed testing.</p>
+
+                    <p>The experience reminded me that technical confidence comes from practice. I learned to read questions carefully, approach problems step by step, and focus on both accuracy and improvement. Receiving my Geek Certified badge was a meaningful moment in my learning journey.</p>
+
                     <img
-                        class="c60-media-image c60-media-image-badge"
                         src="assets/Geek-Certified-Badge-Faiza.png"
-                        alt="Faiza's Geek Certified badge from i.c.stars Geek Week"
+                        alt="Geek Certified badge from Faiza's i.c.stars Geek Week"
                         loading="lazy"
                     >
 
-                    <div class="c60-media-content">
-                        <span class="c60-media-label">02 / TECHNICAL GROWTH</span>
-                        <h3>My Geek Week achievement</h3>
+                    <span class="c60-image-note">My Geek Certified badge from Geek Week.</span>
 
-                        <p>Geek Week challenged me to apply my technical knowledge through activities involving SQL, Excel, keyboard shortcuts, and timed tasks. It helped me understand how much I could improve through regular practice and persistence.</p>
+                    <a
+                        class="c60-project-link"
+                        href="assets/Geek-Certified-Badge-Faiza.png"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >View my Geek Certified badge ↗</a>
 
-                        <p>Receiving my Geek Certified badge was a meaningful reminder of how far I have come since beginning my transition into technology.</p>
+                    <div class="c60-project-tags">
+                        <span>SQL</span>
+                        <span>Excel</span>
+                        <span>Keyboard shortcuts</span>
+                        <span>Timed testing</span>
+                    </div>
+                </article>
 
-                        <a
-                            class="c60-media-link"
-                            href="assets/Geek-Certified-Badge-Faiza.png"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >View my Geek Certified badge ↗</a>
+                <article class="c60-project-card">
+                    <span class="c60-project-label">03 / DEBUGGING &amp; TESTING</span>
+                    <h3>Learning from technical challenges</h3>
+
+                    <p>One of the most valuable parts of learning technology has been understanding how to approach errors. When something does not work, I try to identify the problem, read the available information, check my steps, and test possible solutions.</p>
+
+                    <p>Working through technical problems with teammates has helped me become more comfortable asking questions and documenting what worked. I have learned that mistakes are part of the development process and that careful testing is just as important as writing code.</p>
+                </article>
+
+                <article class="c60-project-card">
+                    <span class="c60-project-label">04 / GITHUB &amp; COLLABORATION</span>
+                    <h3>Using GitHub to organize technical work</h3>
+
+                    <p>GitHub has introduced me to the importance of keeping technical work organized and maintaining a record of changes. Version control makes it easier to understand how a project develops and supports collaboration when different people contribute.</p>
+
+                    <p>I am learning to document changes clearly, review project files, and make sure that updates do not unintentionally affect existing work. These are habits I want to keep improving as I work on larger projects.</p>
+
+                    <a
+                        class="c60-project-link"
+                        href="https://github.com/fbaloch1"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >Explore my GitHub profile ↗</a>
+                </article>
+
+                <article class="c60-project-card c60-project-card-wide">
+                    <span class="c60-project-label">05 / TECHNICAL &amp; WORKPLACE TOOLS</span>
+                    <h3>Connecting technology skills to professional work</h3>
+
+                    <p>As I develop my technical foundation, I am learning how different tools support programming, data analysis, communication, and documentation. Python and SQL help me work with information, while Excel, Power BI, and Microsoft Fabric help me organize and understand data.</p>
+
+                    <p>I also bring experience using Microsoft Office and digital documentation systems from my healthcare background. Learning how these tools fit together has helped me see that technology work is not only about writing code. It also involves organizing information, communicating with teams, protecting data, and helping people work more efficiently.</p>
+
+                    <div class="c60-project-tags">
+                        <span>Microsoft Office</span>
+                        <span>Excel</span>
+                        <span>Data analysis</span>
+                        <span>Documentation</span>
+                        <span>Collaboration</span>
                     </div>
                 </article>
 
             </div>
-
-            <div class="c60-media-reflection">
-                <span class="c60-media-label">03 / REFLECTION &amp; PROGRESS</span>
-                <h3>More than technical skills</h3>
-
-                <p>As I worked on my Medline and AccessAble projects, I gained practical experience in technology, project planning, and communication. My leadership activities, including my Dream Speech, Gifts Project, and Planetary Responsibility presentation, also helped me think about the kind of professional I want to become.</p>
-
-                <p>I am proud of the progress I have made, but I also know there is much more to learn. I want to carry the same curiosity, patience, and willingness to improve into my future career.</p>
-
-                <div class="c60-media-links">
-                    <a class="c60-media-link" href="projects.html">
-                        Explore my completed projects ↗
-                    </a>
-
-                    <a class="c60-media-link" href="about.html#c60-leadership">
-                        Read my leadership reflections ↗
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <section class="travel-end">
-            <span>New cultures. New flavors. New surroundings. My own story along the way.</span>
-            <a href="contact.html">Let’s connect ↗</a>
         </section>
 
     </main>
